@@ -1,9 +1,9 @@
 RewriteEngine on
 
-AuthName "Restricted Access"
-AuthType Basic
-AuthUserFile /home/subasaye/public_html/manage/.htpasswd
-Require valid-user
+#AuthName "Restricted Access"
+#AuthType Basic
+#AuthUserFile /usefulcube/manage/.htpasswd
+#Require valid-user
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

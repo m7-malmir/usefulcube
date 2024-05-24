@@ -1,13 +1,10 @@
 <?php
-
+require_once 'header.php';
 // use LDAP\Result;
 
 // include 'partials/header.php';
-$f_query="SELECT * FROM `posts` WHERE `is_featured`=1";
-$f_result=mysqli_query($mysqli,$f_query);
-$featured=mysqli_fetch_assoc($f_result);
-$post_q="SELECT * FROM `posts` ORDER BY `date_time` LIMIT 9";
-$r_post=mysqli_query($mysqli,$post_q);
+$f=new ShowProductContr();
+$ok=$f->showProduct();
 ?>
 <section class="blog">
     <div class="container__search ">
