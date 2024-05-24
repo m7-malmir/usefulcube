@@ -320,6 +320,78 @@
         transform: translateX(-1rem);
         color: var(--color-bg1);
     }
+    /*===========================POST page=============================*/
+
+.post__container{
+    /* height: 160vh; */
+    height: max-content;
+}
+.main-card{
+    margin: 0 auto;
+    width: 65%;
+    background: var(--color-primary);
+    padding: 2rem;
+    line-height: 1rem;
+    border-radius: 1rem;
+    display: grid;
+    margin-top: 8rem;
+    align-items: center;
+}
+.main-card p{
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+.post__container .ingo {    
+    display: grid;
+    align-items: center;
+}
+/*===========================BLOG page=============================*/
+.blog{
+    height: 20vh;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+.search-bar {
+    background: var(--color-bg1);
+    height: 59px;
+    align-items: center;
+    display: flex;
+}
+.search-bar input[type="search"] {
+    background: transparent;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    flex-basis: 100%;
+
+}
+.search-bar i{
+
+    margin-left: 1rem;
+}
+.btn-danger{
+    background: var(--color-danger);
+    color: #fff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0 0.4rem 0 0;
+    border-radius: 0.2rem;
+}
+.btn-blog,.container-login input[type="submit"] {
+    background: var(--color-primary);
+    color: #fff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0 0.4rem 0 0;
+    border-radius: 0.2rem;
+}
+.btn-blog:hover,.container-login input[type="submit"]:hover,.btn-danger:hover{
+    background: var(--color-white);
+    color: #000;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.container__search{
+    width: 30%;
+    margin: 0 auto;
+}
     /*==================ABOUT=======================*/
     
     #about {

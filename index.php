@@ -12,7 +12,7 @@ define('ROOT_URL','https://usefulcube.com/');
     <title>UseFulCube</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@ define('ROOT_URL','https://usefulcube.com/');
         <div class="container nav__container">
             <a href="index.html"><img class="nav__logo" src="./img/logo4.png" alt=""></a>
             <ul class="nav__links">
-                <li><a href="#exhibition">مقالات</a></li>
+                <li><a href="blog.php">مقالات</a></li>
                 <li><a href="#about">درباره ما</a></li>
                 <li><a href="#gallery"> تصاویر</a></li>
                 <li><a href="index">خانه</a></li>
@@ -210,7 +210,7 @@ define('ROOT_URL','https://usefulcube.com/');
 </body>
 
 </html>
-<script src="./main.js"></script>
+<script src="./js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
