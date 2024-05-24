@@ -5,12 +5,12 @@
         /*================GREEN THEME=============================*/
         --color-primary: #ff7b02;
         --color-primary-variant: #e5a55d;
-        --color-bg1: #000e17;
-        --color-bg2: #001e2d;
-        --color-bg3: #012734;
-        --color-bg4: #003347;
-        --color-light: #85a2b2;
-        --color-white: hsl(0, 0%, 90%);
+        --color-bg1: #aaad62;
+        --color-bg2: #cbe3bf;
+        --color-bg3: #feffe4;
+        --color-bg4: #feffe4;
+        --color-light: #6e353b;
+        --color-white: hsl(0deg 2.99% 36.95%);
         /*================PURPLE THEME=============================*/
         /*
 --color-primary:#ff7b02;
@@ -39,21 +39,10 @@
         list-style: none;
         box-sizing: border-box;
     }
-    /*
-    ::-webkit-scrollbar{
-        width: 0.5rem;
-        background: rgba(229, 165, 93, 0.2);
-    }
-    ::-webkit-scrollbar-thumb{
-        width: 100%;
-        background: var(--color-primary-variant);
-        border-radius: 0.25rem;
-    }
-    */
+
     html {
         scroll-behavior: smooth;
     }
-    
     body {
         font-family: 'Yekan';
         background: var(--color-bg3);
@@ -79,6 +68,7 @@
     h1 {
         font-size: 4rem;
         color: var(--color-white);
+        text-align: end;
     }
     
     h2 {
@@ -114,6 +104,7 @@
         background: var(--color-bg2);
         border-bottom: 0.2rem solid var(--color-bg3);
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+        transition: 500ms;
     }
     
     .nav__container {
